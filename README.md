@@ -1,5 +1,4 @@
 # MERN-Web-Application-E-Commerce
-Fruity
 # FruitDelight - Online Fruit Delivery Web Application
 
 Welcome to FruitDelight, your one-stop destination for fresh and delicious fruit items delivered right to your doorstep! Whether you're craving a healthy snack, a fruity dessert, or a refreshing beverage, we've got you covered. Explore our wide range of fruit-based products, from fresh fruits to delightful creations, and treat yourself to the goodness of nature.

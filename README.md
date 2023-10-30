@@ -32,12 +32,14 @@ STRIPE_SECRET_KEY : "",
 FRONTEND_URL : "",
 
 To start Backend Server : npm run dev
+My Backend URL : https://backend-mern-k4b1.onrender.com
 
 Frontend Enviornment Variables :
-REACT_APP_SERVER_DOMAIN = http://localhost:8080,
-REACT_APP_ADMIN_EMAIL = <admin email id>,
-REACT_APP_STRIPE_PUBLIC_KEY = "",
+REACT_APP_SERVER_DOMAIN = <backend url>
+REACT_APP_ADMIN_EMAIL = <admin email id>
+REACT_APP_STRIPE_PUBLIC_KEY = <stripe public key>
 
+My Frontend URL : https://mern-fruity-e-commerce-web-application.vercel.app
 To start Frontend Server : npm start
 
 ****************************************

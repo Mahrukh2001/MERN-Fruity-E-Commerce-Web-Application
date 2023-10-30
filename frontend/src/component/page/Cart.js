@@ -52,15 +52,15 @@ const Cart = () => {
   return (
   <>
   
-    <div className='p-2 md:p-4'>
-        <h2 className='text-lg md:text-2xl font-bold text-slate-600'>Your Cart Items</h2>
+  <div className='p-4 md:p-8'>
+      <h2 className='text-xl md:text-2xl font-bold text-slate-600 mb-4'>Your Cart Items</h2>
 
         {
             productCartItem[0] ?
 
-        <div className='my-4 flex gap-3'>
+         <div className='flex flex-wrap gap-4'>
             {/* display cart items */}
-            <div className='w-full max-w-3xl'>
+            <div className='w-full md:w-2/3'>
                 {
                     productCartItem.map(el=>{
                         return(
@@ -83,25 +83,32 @@ const Cart = () => {
             </div>
 
             {/* total cart items */}
-            <div className='w-full max-w-md  ml-auto'>
-                <h2 className='bg-blue-500 text-white p-2 text-lg'>Order Summary</h2>
-                <div className='flex w-full py-2 text-lg border-b'>
-                 <p>Total Qty :</p>
-                 <p className='ml-auto w-32 font-bold '>{totalQty}</p>
+            <div className='w-full md:w-1/3'>
+                <h2 className='bg-blue-500 text-white p-2 text-lg mb-4'>Order Summary</h2>
+                <div className='flex w-full py-2 border-b'>
+                  <p>Total Qty:</p>
+                  <p className='ml-auto font-bold'>{totalQty}</p>
                 </div>
-                <div className='flex w-full py-2 text-lg border-b'>
-                 <p>Total Price :</p>
-                 <p className='ml-auto w-32 font-bold'> <span className='text-red-500 px-1'>₨</span> {totalPrice}</p>
-                </div>
-                <button className='bg-red-500 w-full text-lg font-bold py-2 text-white cursor-pointer' onClick={handlePayment}>Payment</button>
+                <div className='flex w-full py-2 border-b'>
+                  <p>Total Price:</p>
+                  <p className='ml-auto font-bold'>
+                     <span className='text-red-500 px-1'>₨</span> {totalPrice}
+                  </p>
+            </div>
+            <button
+              className='bg-red-500 w-full text-lg font-bold py-2 text-white cursor-pointer'
+              onClick={handlePayment}
+            >
+              Payment
+            </button>
             </div>
 
         </div>
         :<>
 
-        <div className=' flex w-full justify-center items-center flex-col'>
-            <img src={emptyCartImage} className='w-full max-w-sm'/>
-            <p className=' text-slate-500 text-3xl font-bold'>Empty Cart</p>
+        <div className='flex justify-center items-center flex-col'>
+          <img src={emptyCartImage} className='w-full max-w-sm' alt='Empty Cart' />
+          <p className='text-slate-500 text-xl md:text-2xl font-bold mt-4'>Empty Cart</p>
         </div>
 
           

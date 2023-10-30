@@ -31,7 +31,7 @@ const CartProduct = ({id, name, image, category, qty, total, price}) => {
            <button onClick={()=>dispatch(decreaseQty(id))} className='bg-slate-300 py-1  mt-2 rounded hover:bg-slate-400 p-1'><TbMinus/></button>
           </div>
           <div className='flex items-center gap-2 font-bold text-slate-700'>
-            <p>Total :</p>
+            <p>Total</p>
             <p> <span className='text-red-500 px-1'>₨</span>{total}</p>
           </div>
           </div>

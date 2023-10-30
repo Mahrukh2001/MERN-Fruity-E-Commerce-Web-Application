@@ -1,5 +1,5 @@
 # MERN-Web-Application-E-Commerce
-# FruitDelight - Online Fruit Delivery Web Application
+# FruitDelight - Online Fruit Delivery Web Application (React JS + Node JS + MongoDB)
 
 Welcome to FruitDelight, your one-stop destination for fresh and delicious fruit items delivered right to your doorstep! Whether you're craving a healthy snack, a fruity dessert, or a refreshing beverage, we've got you covered. Explore our wide range of fruit-based products, from fresh fruits to delightful creations, and treat yourself to the goodness of nature.
 

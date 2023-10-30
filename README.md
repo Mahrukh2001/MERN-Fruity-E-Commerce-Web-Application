@@ -42,4 +42,8 @@ REACT_APP_STRIPE_PUBLIC_KEY = <stripe public key>
 My Frontend URL : https://mern-fruity-e-commerce-web-application.vercel.app
 To start Frontend Server : npm start
 
+<<<<<<< HEAD
 ****************************************
+=======
+****************************************
+>>>>>>> 9e4438c645ce7f780c175ad134b85f53242038b5

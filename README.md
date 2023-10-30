@@ -15,6 +15,8 @@ Welcome to FruitDelight, your one-stop destination for fresh and delicious fruit
 
 - **Fruit Slushies**: Enjoy our fruit slushies, a refreshing and icy delight for hot summer days.
 
+- **Fruit Salaads**: Enjoy our fruit salaads, healthy and refreshing.
+
 - **Easy Ordering**: Our user-friendly website makes it easy to browse, select, and order your favorite fruit items.
 
 - **Secure Payments**: We offer secure and convenient payment options for a hassle-free checkout experience.
@@ -22,3 +24,20 @@ Welcome to FruitDelight, your one-stop destination for fresh and delicious fruit
 - **Fast Delivery**: Sit back and relax as we ensure swift and reliable delivery of your order to your location.
 
 - **Customer Support**: Our dedicated support team is here to assist you with any queries or concerns.
+
+
+Backend Enviornment Variables :  
+MONGODB_URL : "",
+STRIPE_SECRET_KEY : "",
+FRONTEND_URL : "",
+
+To start Backend Server : npm run dev
+
+Frontend Enviornment Variables :
+REACT_APP_SERVER_DOMAIN = http://localhost:8080,
+REACT_APP_ADMIN_EMAIL = <admin email id>,
+REACT_APP_STRIPE_PUBLIC_KEY = "",
+
+To start Frontend Server : npm start
+
+****************************************
